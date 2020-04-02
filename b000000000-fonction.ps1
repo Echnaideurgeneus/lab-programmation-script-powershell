@@ -12,16 +12,17 @@
 #>
 
 # Definition de la fonction
-function Stagiaire {
-   param (
-        [String]$personneNom,
-        [Int]$personneAge
-    )
-    # message de bienvenue 
-    "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge
-}
-
+  function Stagiaire { 
+      param (
+         [String]$personneNom,
+         [Int]$personneAge
+      )
+  # message de bienvenue 
+  "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge
+   
+   }
+ 
 # Appel de la fonction
-Stagiaire
+Stagiaire Toronto 35
 
 
