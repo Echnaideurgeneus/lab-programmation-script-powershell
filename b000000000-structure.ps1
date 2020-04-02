@@ -28,6 +28,7 @@ switch ($personneAge) {
 $villes = "Toronto","Mississauga","Scarborough","Brampton"
 for ($i = 0; $i -le $villes.Count; $i = $i + 1) {
     $villes[$i]
+
 }
 
 #Clear-Host
